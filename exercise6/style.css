@@ -1,0 +1,38 @@
+.interior {
+  position: absolute;
+  border: 5px solid white;
+  height: 100px;
+  width: 100px;
+}
+
+.div1 {
+  background-color: red;
+  left: 75px;
+}
+
+.div2 {
+  background-color: orange;
+  left: 250px;
+  transform: rotate(-18deg);
+}
+
+.div3 {
+  background-color: yellow;
+  top: 105px;
+  left: 200px;
+  transform: rotate(-34deg);
+}
+
+.div4 {
+  background-color: blue;
+  top: 57px;
+  left: 103px;
+  transform: rotate(28deg);
+}
+
+.div5 {
+  background-color: plum;
+  top: 47px;
+  left: 19px;
+  transform: rotate(14deg);
+}

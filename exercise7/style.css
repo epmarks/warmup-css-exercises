@@ -1,0 +1,48 @@
+.interior {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.div1::before {
+  background-color: red;
+  opacity: 0.2;
+  height: 100px;
+  width: 100px;
+}
+
+.div1 {
+  background-color: red;
+  left: 300px;
+}
+
+.div1::after {
+  background-color: red;
+  opacity: 0.5;
+  height: 100px;
+  width: 100px;
+}
+
+.div2 {
+  background-color: orange;
+  top: 125px;
+  left: 300px;
+}
+
+.div3 {
+  background-color: yellow;
+  top: 250px;
+  left: 300px;
+}
+
+.div4 {
+  background-color: blue;
+  top: 375px;
+  left: 300px;
+}
+
+.div5 {
+  background-color: plum;
+  top: 500px;
+  left: 300px;
+}
