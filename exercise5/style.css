@@ -1,0 +1,32 @@
+.interior {
+  position: absolute;
+  border: 5px solid white;
+  height: 100px;
+  width: 100px;
+}
+
+.div1 {
+  background-color: red;
+}
+
+.div2 {
+  background-color: orange;
+  left: 120px;
+}
+
+.div3 {
+  background-color: yellow;
+  left: 230px;
+}
+
+.div4 {
+  background-color: blue;
+  top: 65px;
+  left: 60px;
+}
+
+.div5 {
+  background-color: plum;
+  top: 65px;
+  left: 180px;
+}
