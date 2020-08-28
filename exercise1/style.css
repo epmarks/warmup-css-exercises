@@ -1,4 +1,6 @@
-.interior {
+/* Position Absolute */
+
+/* .interior {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -27,5 +29,71 @@
 .div5 {
   background-color: red;
   top: 65px;
+  left: 65px;
+} */
+
+/* Position Relative */
+
+/* .interior {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: blue;
+  position: relative;
+}
+
+.div2 {
+  left: 25px;
+}
+
+.div3 {
+  top: 125px;
+  right: 207px;
+}
+
+.div4 {
+  top: 125px;
+  right: 183px;
+}
+
+.div5 {
+  background: red;
+  top: 65.5px;
+  right: 350px;
+} */
+
+/* Do They Float?? */
+
+.container {
+  height: 230px;
+  width: 230px;
+}
+
+.interior {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: blue;
+}
+
+.div2 {
+  float: right;
+}
+
+.div3 {
+  position: relative;
+  top: 25px;
+}
+
+.div4 {
+  float: right;
+  position: relative;
+  top: 25px;
+}
+
+.div5 {
+  background: red;
+  position: relative;
+  bottom: 150px;
   left: 65px;
 }
