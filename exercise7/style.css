@@ -1,12 +1,9 @@
-.interior {
-  position: absolute;
-  height: 100px;
-  width: 100px;
+* {
+  box-sizing: border-box;
 }
 
-.div1::before {
-  background-color: red;
-  opacity: 0.2;
+.interior {
+  position: absolute;
   height: 100px;
   width: 100px;
 }
@@ -16,11 +13,27 @@
   left: 300px;
 }
 
-.div1::after {
-  background-color: red;
-  opacity: 0.5;
+.div1::before {
+  content: "";
+  display: inline-block;
+  position: relative;
   height: 100px;
   width: 100px;
+  background-color: red;
+  left: -220px;
+  opacity: 0.2;
+}
+
+.div1::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  left: -110px;
+  top: -104px;
+  opacity: 0.5;
 }
 
 .div2 {
@@ -29,10 +42,56 @@
   left: 300px;
 }
 
+.div2::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  left: -220px;
+  opacity: 0.2;
+}
+
+.div2::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: orange;
+  height: 100px;
+  width: 100px;
+  left: -110px;
+  top: -104px;
+  opacity: 0.5;
+}
+
 .div3 {
   background-color: yellow;
   top: 250px;
   left: 300px;
+}
+
+.div3::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  left: -220px;
+  opacity: 0.2;
+}
+
+.div3::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  left: -110px;
+  top: -104px;
+  opacity: 0.5;
 }
 
 .div4 {
@@ -41,8 +100,54 @@
   left: 300px;
 }
 
+.div4::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  left: -220px;
+  opacity: 0.2;
+}
+
+.div4::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  left: -110px;
+  top: -104px;
+  opacity: 0.5;
+}
+
 .div5 {
   background-color: plum;
   top: 500px;
   left: 300px;
+}
+
+.div5::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: plum;
+  left: -220px;
+  opacity: 0.2;
+}
+
+.div5::after {
+  content: "";
+  display: inline-block;
+  position: relative;
+  background-color: plum;
+  height: 100px;
+  width: 100px;
+  left: -110px;
+  top: -104px;
+  opacity: 0.5;
 }
